@@ -17,6 +17,12 @@ function App() {
   return ( 
     <>
     <NavBar />
+    <Banner />
+    <Skiils />
+    <MyTabs />
+
+    <Contact />
+    <Footer />
     
   
     </>
