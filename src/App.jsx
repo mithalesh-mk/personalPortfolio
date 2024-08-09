@@ -17,12 +17,14 @@ function App() {
     <>
     <NavBar />
     <Banner />
+    
+    
     <Skiils />
     <MyTabs />
     <Contact />
     <Footer />
-    </>
     
+    </>
   )
 }
 

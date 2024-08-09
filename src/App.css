@@ -365,7 +365,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
-  margin-left: 48%;
+  margin-left: 50.5%;
 }
 .project .nav.nav-pills .nav-item {
   width: 100%;
@@ -672,10 +672,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
 }
 
-@media (min-width:770px) and (max-width: 1030px) {
-  .banner{
-    margin-left: 0;
-  }
+.container-all{
+  margin: auto;
+}
+
+@media (min-width:770px) and (max-width: 1000px) {
 
   .proj-imgbx img{
     height: 200px;
@@ -697,5 +698,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width:30%;
   }
   
-
 }
+

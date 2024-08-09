@@ -54,10 +54,10 @@ function Contact() {
                             <Col sm={6} className='px-1'>
                                 <input type='tel' name='phone' value={formDetails.phone} placeholder='Phone No.' onChange={(e)=>onFormUpdate('phone',e.target.value)} />
                             </Col>
-                            <Col md={6}>
                                 <textarea rows={8} name='message' value={formDetails.message} placeholder='Message' onChange={(e)=>onFormUpdate('message',e.target.value)}/>
+                            <Col sm={6} className='px-1'>
                                 <button type='submit'><span>{buttonText}</span></button>
-                            </Col>
+                            </Col>    
                         </Row>
                     </form>
                 </Col>
