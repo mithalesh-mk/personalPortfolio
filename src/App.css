@@ -73,7 +73,7 @@ nav.navbar {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
+  z-index: 9;
   transition:  0.32s ease-in-out;
 }
 nav.navbar.scrolled {
@@ -673,6 +673,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media (min-width:770px) and (max-width: 1030px) {
+  .banner{
+    margin-left: 0;
+  }
+
   .proj-imgbx img{
     height: 200px;
     width: 100%;

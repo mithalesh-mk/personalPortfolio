@@ -50,14 +50,13 @@ function Banner() {
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>Welcome to my Portfolio</span>
                     <h1>{`Hi there, I'm Mithalesh `} <br></br> <span className='wrap'>{text}</span></h1>
-                    <p>currently pursuing B.Tech in Computer Science, with one year of hands-on experience in web development. My expertise spans C++, Python, and JavaScript, and I’ve successfully completed a range of projects, from small-scale applications to more complex, moderately scaled solutions. My portfolio reflects my ability to build scalable, high-performance web applications, and I take pride in writing clean, efficient code that meets industry standards.</p>
-                    
+                    <p>currently pursuing B.Tech in Computer Science, with one year of hands-on experience in web development. My expertise spans C++, Python, and JavaScript, and I’ve successfully completed a range of projects, from small-scale applications to more complex, moderately scaled solutions. My portfolio reflects my ability to build scalable, high-performance web applications.</p>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={profile} alt="header image" />
                 </Col>
                 <Col xs={12} md={6} xl={7}>
-                    <button onClick={()=> console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/> </button>
+                   <a href='#connect'><button onClick={()=> console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/> </button></a> 
                 </Col>
                 
             </Row>

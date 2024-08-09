@@ -56,7 +56,7 @@ function NavBar() {
                 <a href={socials.github_url}> <img src={github} alt="GitHub" /> </a>
                 <a href={socials.twitter_url}> <img src={twitter} alt="Twitter" /> </a>
             </div>
-            <button className='vvd' onClick={()=>console.log('connect')}>Connect</button>
+            <a href='#connect'><button className='vvd' onClick={()=>console.log('connect')}>Connect</button></a>
           </span>
         </Navbar.Collapse>
       </Container>
