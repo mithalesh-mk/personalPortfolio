@@ -624,7 +624,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
   .banner{
     margin-left: 1%;
     margin-bottom: 100px;
